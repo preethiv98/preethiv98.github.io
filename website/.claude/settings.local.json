@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc -t markdown \"/Users/preethi/Downloads/Resume_Venkataraman.docx\")",
+      "Bash(python3 -c \"import docx\")",
+      "Bash(pip3 list *)",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-preethi-Documents-website/f0bbb9e4-0b25-44b9-9366-31807adace4f/scratchpad/resume_unpacked)",
+      "Bash(unzip -o -q \"/Users/preethi/Downloads/Resume_Venkataraman.docx\" -d .)",
+      "Bash(python3 -)",
+      "Bash(textutil -convert txt \"/Users/preethi/Downloads/Resume_Venkataraman.docx\" -output /private/tmp/claude-501/-Users-preethi-Documents-website/f0bbb9e4-0b25-44b9-9366-31807adace4f/scratchpad/resume.txt)",
+      "Bash(curl -s http://localhost:8934/index.html)",
+      "Bash(pkill -f \"http.server 8934\")"
+    ]
+  }
+}
